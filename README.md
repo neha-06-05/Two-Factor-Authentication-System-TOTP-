@@ -1,7 +1,3 @@
-# Two-Factor-Authentication-System-TOTP-
-
-Simple Flask-based Two-Factor Authentication (2FA) system using TOTP
-
 # Two-Factor Authentication System (TOTP)
 
 This is a simple Python web application that demonstrates Two-Factor Authentication using **TOTP (Time-based One-Time Passwords)**, compatible with apps like Google Authenticator. It allows users to register and log in securely using both a password and a time-sensitive OTP.
