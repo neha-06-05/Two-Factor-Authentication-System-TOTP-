@@ -1,7 +1,5 @@
 # Two-Factor-Authentication-System-TOTP-
 
-# two-factor-authentication
-
 Simple Flask-based Two-Factor Authentication (2FA) system using TOTP
 
 # Two-Factor Authentication System (TOTP)
