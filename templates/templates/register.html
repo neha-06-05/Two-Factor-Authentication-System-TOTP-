@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+    {% if qr_code %}
+        <h2>Scan this QR Code in Google Authenticator</h2>
+        <img src="data:image/png;base64,{{ qr_code }}" alt="QR Code">
+        <p>Username: <strong>{{ username }}</strong></p>
+        <p><a href="/login">Go to Login</a></p>
+    {% else %}
+        <h2>User Registration</h2>
+        <form method="POST">
+            <input name="username" placeholder="Enter Username" required>
+            <button type="submit">Register</button>
+        </form>
+    {% endif %}
+</body>
+</html>
